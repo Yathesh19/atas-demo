@@ -1,0 +1,12 @@
+sudo docker images -> gives all the list of images
+sudo docker kill filename -> it kills the docker or stop
+sudo docker ps -> should be empty
+sudo docker container ls
+sudo docker build -t centos-server:v1 .
+sudo docker build -t <image-name>:<tag> ---> syntax
+
+sudo docker run -d -p <host-port>:<container-port> --name <container-name> <image name>
+sudo docker run -d -p 80:80 --name atas-server centos-server:v1
+sudo docker ps
+
+sudo docker exec -it <container-name> bash / sh
